@@ -178,19 +178,65 @@ margin-left: 55px;
 .container_contact .contact div span{
     opacity: 0.3;
 }
+
+/*-------------------end----------------------*/
+
+
+/*-------------------SECTION TWO----------------------*/
+
 .formulario{
     content: "";
-    margin-top: 1px;
     background-color: var(--black);
-    
-}
-form{
+ }
+
+ form{
     height: 100vh;
     width: 100%;
     background: url(./images/image-form.png);
     background-position: 7% 10%;
     background-size: cover;
+    position: absolute;
 }
-
-
-/*-------------------end----------------------*/
+.envio{
+    margin-top: 270px;
+    margin-left: 200px;
+}
+label{
+       
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+#nome, #mail, #ass, #msm{
+    background-color: var(--black);
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#nome, #mail {
+   width: 260px;
+   height: 40px;
+   margin-right: 10px;
+}
+#ass{
+   width: 540px;
+   height: 45px;
+   display: flex;
+}
+#msm{
+    width: 540px;
+    height: 200px;
+    display: flex;
+}
+.enviar{
+    width: 75px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: var(--green-500);
+    color: var(--white);
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px solid;
+}
+.enviar:hover{
+    filter: brightness(0.8);
+    background-color: var(--green-500);
+}
